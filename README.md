@@ -21,6 +21,7 @@ Pour Netbeans, voici le lien : [Netbeans dernière version]https://netbeans.apac
 La configuration est une étape essentiel pour la future construction de projets, il s'agit donc très attentif.
 
 Pour XAMPP : ouvrir le control pannel
-    
+,,,
     test
+,,,
 
