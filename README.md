@@ -8,7 +8,7 @@
     
 2. *Etapes (configuration)*
 
-3. *Remarques et complications*
+3. Conclusion 
 
 ### Telechargements
 
@@ -68,7 +68,19 @@ Cependant si un message d'erreur de ce type apparait :
 
     javaee-endorsed-api-6.0 library could not be found 
     
-Il faudra alors installer ici : [javaee-endorsed-api-6.0.jar](http://www.java2s.com/Code/Jar/j/Downloadjavaeeendorsedapi60jar.htm)
+Il faudra alors installer ici : [javaee-endorsed-api-6.0.jar](http://www.java2s.com/Code/Jar/j/Downloadjavaeeendorsedapi60jar.htm). Puis, dans votre projet :
 
-    
+     Clic droit sur le nom du projet -> Properties
+     Libraries ->  Add Jar/Folder -> cliquer sur la javaee-endorsed-api-6.0.jax
+     
+ **Tout** devrait **fonctionner** dorénavant.
+
+     
+### Conclusion
+
+Ce tutoriel n'est qu'un court résumé des nombreuses étapes que j'ai pu effectué pour parvenir à une Java Web Application, il se peut alors que des oublis puissent avoir été faits.
+
+Cependant, n'hésitez pas à me contacter si vous rencontrer un problème : @tbouchou
+ 
+ 
 
