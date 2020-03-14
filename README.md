@@ -24,11 +24,12 @@ Pour XAMPP, ouvrir le control pannel et effectuer les commandes suivantes :
 
     Tomcat : Config -> tomcat-users.xml
     
-Ajouter les 3 lignes suivantes dans la balise <tomcat-users>
+Ajouter les 3 lignes suivantes dans la balise *tomcat-users*
  
      <role rolename="manager-gui"/>
      <user username="tomcat" password="tomcat" roles="manager-gui"/>
      <user username="tomcat" password="tomcat" roles="standard,manager-script" />
 
+Modifier aussi les password présents dans la page en les remplacant par *tomcat*
     
 
