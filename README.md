@@ -14,7 +14,7 @@
 
 Pour telecharger XAMPP, c'est très simple, il vous suffit de cliquer sur ce lien : [XAMPP dernière version](https://www.apachefriends.org/fr/index.html)
 
-Pour Netbeans, voici le lien : [Netbeans dernière version]https://netbeans.apache.org/download/
+Pour Netbeans, voici le lien : [Netbeans dernière version](https://netbeans.apache.org/download/)
 
 ### Etapes
 
@@ -34,6 +34,13 @@ Modifier aussi les password présents dans la page en les remplacant par *tomcat
 
 La partie XAMPP s'arrête là, préparez-vous cependant pour la partie **Netbeans**
 
+Après avoir télécharger vous aurez à créer un nouveau projet (dans notre cas JavaWeb) :
+
+    *File -> Java With Ant -> Java Web -> Web Application
+    *Project Name -> <Nom que vous souhaitez>
+    *Project Location -> <Choisissez une arborescence ou votre application sera placée>
+    *Next
+    
 
     
 
