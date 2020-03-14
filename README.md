@@ -13,3 +13,14 @@
 ### Telechargements
 
 Pour telecharger XAMPP, c'est très simple, il vous suffit de cliquer sur ce lien : [XAMPP dernière version](https://www.apachefriends.org/fr/index.html)
+
+Pour Netbeans, voici le lien : [Netbeans dernière version]https://netbeans.apache.org/download/
+
+### Etapes
+
+La configuration est une étape essentiel pour la future construction de projets, il s'agit donc très attentif.
+
+Pour XAMPP : ouvrir le control pannel
+ > - Test 123
+ > - Follow  [testing artifacts](http://2.bp.blogspot.com) (more Unit )
+
