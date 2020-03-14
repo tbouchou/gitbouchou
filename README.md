@@ -29,12 +29,12 @@ Ajouter les 3 lignes suivantes dans la balise *tomcat-users*
     <role rolename="manager-gui"/>
     <user username="tomcat" password="tomcat" roles="manager-gui"/>
     <user username="tomcat" password="tomcat" roles="standard,manager-script" />
-    
+ 
+Modifier aussi les password présents dans la page en les remplacant par *tomcat*   
+
+Ces ajouts permetteront la connexion locale au serveur et manager/html de tomcat au travers du port 8080.
+
 Puis lancer les services suivants : Apache, MySQL (si vous comptez utiliser phpmyadmin)
-
-Ces ajouts permetteront la connexion locale au serveur et manager/html de tomcat.
-
-Modifier aussi les password présents dans la page en les remplacant par *tomcat*
 
 La partie XAMPP s'arrête là, préparez-vous cependant pour la partie **Netbeans**
 
