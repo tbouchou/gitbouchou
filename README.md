@@ -8,7 +8,7 @@
     
 2. *Etapes (configuration)*
 
-3. Conclusion 
+3. *Conclusion* 
 
 ### Telechargements
 
