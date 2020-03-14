@@ -38,9 +38,15 @@ Modifier aussi les password présents dans la page en les remplacant par *tomcat
 
 La partie XAMPP s'arrête là, préparez-vous cependant pour la partie **Netbeans**
 
-Il vous faut d'abord l'api jdk (pour permettre l'exéuction java), voici son lien téléchargeable [Last Version](https://www.oracle.com/java/technologies/javase-jdk13-downloads.html)
+Il vous faut d'abord le jdk (pour permettre l'exéuction java), voici son lien téléchargeable [Last Version](https://www.oracle.com/java/technologies/javase-jdk13-downloads.html). Puis il faudra modifier la variable *Path* d'environnement
 
-Après avoir télécharger vous aurez à créer un nouveau projet (dans notre cas JavaWeb) :
+     Panneau de Configuration -> Système
+     Paramètres systèmes avancés -> Variables d'environnement
+     Variables système -> Selectionner Path -> Modifier
+     Ajouter l'arborescence du jdk (ex : C:\Program Files\Java\jdk-13.0.2/bin)
+     Tester avec le cmd en tapant la commande suivante : java -version
+
+Après avoir télécharger le jdk ainsi que netbeans, vous devrez créer un nouveau projet (dans notre cas JavaWeb) :
 
     File -> Java With Ant -> Java Web -> Web Application
     Project Name -> <Nom que vous souhaitez>
@@ -57,6 +63,12 @@ Vous voici dans le menu de *Server And Settings"*, ici intervient notre petit XA
 Et voilà, il ne vous reste plus qu'à *Run* votre projet avec F6, celui-ci ouvrira par défaut internet explorer. Pour modifier le Web browser par défaut :
 
     Tools -> Options -> Web Browser -> Firefox par exemple 
+    
+Cependant si un message d'erreur de ce type apparait :
+
+    javaee-endorsed-api-6.0 library could not be found 
+    
+Il faudra alors installer ici : [javaee-endorsed-api-6.0.jar](http://www.java2s.com/Code/Jar/j/Downloadjavaeeendorsedapi60jar.htm)
 
     
 
