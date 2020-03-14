@@ -2,13 +2,13 @@
 
 ## Plan d'execution :
 
-1. Telechargements :
+1. *Telechargements* :
   * XAMPP : pour les modules tomcat, apache et mySql en locale 
   * Netbeans
     
-2. Etapes (configuration)
+2. *Etapes (configuration)*
 
-3. Remarques et complications
+3. *Remarques et complications*
 
 ### Telechargements
 
