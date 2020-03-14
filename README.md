@@ -75,6 +75,11 @@ Il faudra alors installer ici : [javaee-endorsed-api-6.0.jar](http://www.java2s.
      
  **Tout** devrait **fonctionner** dorénavant.
 
+Pour importer un projet éxistant, il suffit de désarchiver le .war et :
+
+    File OpenProject -> Ouvrir la WebApplication
+    
+**Attention** : Il risque de manquer, si vous utilisez JDBC de MySQL pour votre base de données, ce package, il vous faudra suivre les mêmes étapes que la javaee-endorsed-api avec l'ajout d'une nouvelle librarie.
      
 ### Conclusion
 
