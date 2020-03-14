@@ -5,4 +5,9 @@
 1. Telechargements :
   * XAMPP : pour les modules tomcat, apache et mySql en locale 
   * Netbeans
-    http://github.com - automatic![GitHub](http://github.com)
+    
+2. Etapes
+
+3. Remarques et complications
+
+### Telechargements
