@@ -12,5 +12,4 @@
 
 ### Telechargements
 
-Pour telecharger XAMPP, c'est très simplek, il vous suffit de cliquer sur ce lien : http://github.com - automatic!
-[GitHub](https://www.apachefriends.org/fr/index.html)
+Pour telecharger XAMPP, c'est très simple, il vous suffit de cliquer sur ce lien : [XAMPP dernière version](https://www.apachefriends.org/fr/index.html)
