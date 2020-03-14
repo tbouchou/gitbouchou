@@ -1,5 +1,8 @@
-# Installer et exécuter d'une application JEE
+# Installer et exécuter une application JEE
 
 ## Plan d'execution :
 
-1. Test
+1. Telechargements :
+  * XAMPP : pour les modules tomcat, apache et mySql en locale 
+  * Netbeans
+    
