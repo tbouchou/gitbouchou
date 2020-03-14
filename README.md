@@ -20,8 +20,15 @@ Pour Netbeans, voici le lien : [Netbeans dernière version]https://netbeans.apac
 
 La configuration est une étape essentiel pour la future construction de projets, il s'agit donc très attentif.
 
-Pour XAMPP : ouvrir le control pannel
-,,,
-    test
-,,,
+Pour XAMPP, ouvrir le control pannel et effectuer les commandes suivantes :
+
+    Tomcat : Config -> tomcat-users.xml
+    
+Ajouter les 3 lignes suivantes dans la balise <tomcat-users>
+ 
+     <role rolename="manager-gui"/>
+     <user username="tomcat" password="tomcat" roles="manager-gui"/>
+     <user username="tomcat" password="tomcat" roles="standard,manager-script" />
+
+    
 
