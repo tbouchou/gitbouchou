@@ -173,6 +173,21 @@ requête.
 
 ![](/images/CaptureStats.PNG)
 
+S'ouvrira ensuite une page avec la statistique demandée.
+
+Exemple de résultat :
+
+![](/images/CaptureResultat.PNG)
+
+Vous pouvez vous déconnecter proprement en cliquant en haut à droite sur le bouton de déconnexion.
+
+![](/images/CaptureDeconnexion.PNG)
+
+Ou revenir au formulaire de choix en cliquant en haut à gauche.
+
+![](/images/CapturePrecedent.PNG)
+
+
 ### Conclusion
 
 Ce tutoriel n'est qu'un court résumé des nombreuses étapes que j'ai pu effectué pour parvenir à une Java Web Application, il se peut alors que des oublis puissent avoir été faits.
