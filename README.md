@@ -8,6 +8,8 @@
     
 2. *Etapes (configuration)*
 
+4. En cas de complications
+
 3. *Conclusion* 
 
 ### Telechargements
@@ -80,13 +82,49 @@ Pour importer un projet éxistant, il suffit de désarchiver le .war et :
     File OpenProject -> Ouvrir la WebApplication
     
 **Attention** : Il risque de manquer, si vous utilisez JDBC de MySQL pour votre base de données, ce package, il vous faudra suivre les mêmes étapes que la javaee-endorsed-api avec l'ajout d'une nouvelle librarie.
+
+### En cas de complications
+
+Si jamais votre configuration *Tomcat* ne marche pas, et que dans votre xamp control panel Tomcat
+indique une erreur comme "Tomcat started/Stopped with errors, return code : 1", suivez ces instructions à
+la lettre :
+
+* En premier lieu, nous allons créer une variable d'environnement nommée "JAVA_MAIN", pour cela :
+
+      Pressez la touche windows + la touche r, et tapez "control" puis Entrée
+      Sélectionnez "Système"
+      Paramètres de système avancés (sous windows 7, il faut pour cela pressez la touche windows, allez
+      dans l'onglet "ordinateur", puis clic droit sur "ordinateur" -> "propriétés").
+      Cliquez sur "variables d'environnement" -> "Nouveau" et donner le nom de la variable d'environnement (JAVA_MAIN par   exemple), puis dans la ligne en dessous donnez le chemin du dossier où se trouve l'installation de la JDK.
+
+* Faites de même pour l'environnement JRE en créant une nouvelle variable d'environnement, que l'on
+nommera par exemple JRE_MAIN, et indiquez le chemin vers le dossier où se trouve l'environnement
+JRE.
+
+* Une fois tout ceci fait, on peut tester si les manipulations se sont bien exécutées en lancer l'invite de
+commande :
+
+    Touche windows, puis tapez "cmd" -> "set JRE_MAIN" et "set JAVA_MAIN", si cela se passe bien, vous retrouverez le chemin indiqué dans pour chacune des variables d'environnement rentrée.
+
+* Ensuite allez dans le répertoire xampp, puis dans le sous dossier Tomcat, et enfin dans le dossier conf,
+éditez le fichier "server.xml" en allant à la ligne 70 : 
+   
+    Remplaçer le numéro de port par "port="9999".
+
+* Ensuite toujours dans le dossier conf, éditez "context.xml" et allez à la ligne 19 et changez "<Context>" :
+
+      "<Context reloadable=true>".
+
+* Allez ensuite dans votre xamp control panel, tout en haut à droite cliquez sur "config", puis dans l'onglet
+tomcat changez le HTTP Port par le port que vous avez rentré précédemment : 9999.
+
+* Tout ceci terminé, fermez xamp et relancez le, cela devrait normalement marcher (n'oubliez pas lorsque
+vous tenterez d'aller sur la page /manager/html en localhost de changer le port par :9999)
      
 ### Conclusion
 
 Ce tutoriel n'est qu'un court résumé des nombreuses étapes que j'ai pu effectué pour parvenir à une Java Web Application, il se peut alors que des oublis puissent avoir été faits.
 
-Cependant, n'hésitez pas à me contacter si vous rencontrer un problème : @tbouchou
+Cependant, n'hésitez pas à me contacter si vous rencontrer un problème
  
- ![CaptureConnexion](https://user-images.githubusercontent.com/62189396/76700992-3c047a80-66bd-11ea-846b-a42bb3dab8a3.PNG)
-
 
