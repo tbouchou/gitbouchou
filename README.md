@@ -140,7 +140,7 @@ maladie a, b ou c ou de patients guéris ou qui ne sont atteints par aucune mala
     Login : admin
     Mot de passe : admin
     
-![](images/CaptureConnexion.png)
+![](/images/CaptureConnexion.PNG)
      
 ### Conclusion
 
