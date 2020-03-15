@@ -190,8 +190,8 @@ Ou revenir au formulaire de choix en cliquant en haut à gauche.
 
 ### Conclusion
 
-Ce tutoriel n'est qu'un court résumé des nombreuses étapes que j'ai pu effectué pour parvenir à une Java Web Application, il se peut alors que des oublis puissent avoir été faits.
+Ce tutoriel n'est qu'un court résumé des nombreuses étapes que nous avons pu effectués pour parvenir à une Java Web Application, il se peut alors que des oublis puissent avoir été faits.
 
-Cependant, n'hésitez pas à me contacter si vous rencontrer un problème
+Cependant, n'hésitez pas à nous contacter si vous rencontrer un problème
  
 
