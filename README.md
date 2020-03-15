@@ -111,7 +111,7 @@ commande :
    
     Remplaçer le numéro de port par "port="9999".
 
-* Ensuite toujours dans le dossier conf, éditez "context.xml" et allez à la ligne 19 et changez "<Context>" :
+* Ensuite toujours dans le dossier conf, éditez "context.xml" et allez à la ligne 19 et changez la balise *Context* :
 
       "<Context reloadable=true>".
 
