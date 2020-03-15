@@ -148,6 +148,17 @@ En tant que docteur vous pouvez entrer un nouveau patient dans les champs situé
 
 ![](/images/CaptureRenseignement.PNG)
      
+Appuyez sur valider pour finaliser cette opération. Néanmoins, seul l'admin sera capable de savoir si l'opérations s'est bien déroulé.
+
+En revanche si votre patient revient vous voir après sa première visite, veuillez renseigner les champs situés à droite, nommés "Revisite du patient" et "Nouvel état". 
+
+Vous renseignerez ainsi le nom du patient ainsi que son nouvel état (pour plus de renseignements à ce sujet, hésitez pas à cliquer en dessous de "Guide de revisite" sur le lien "En apprendre plus sur la visite médical" qui vous expliquera en détail le
+principe de revisite médical)
+
+Appuez sur Mise à jour pour finaliser cette opération.
+
+![](/images/CaptureRevisite.PNG)
+
 ### Conclusion
 
 Ce tutoriel n'est qu'un court résumé des nombreuses étapes que j'ai pu effectué pour parvenir à une Java Web Application, il se peut alors que des oublis puissent avoir été faits.
