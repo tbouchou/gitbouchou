@@ -159,6 +159,20 @@ Appuez sur Mise à jour pour finaliser cette opération.
 
 ![](/images/CaptureRevisite.PNG)
 
+Vous pouvez vous déconnecter proprement en cliquant en haut à droite sur le bouton de déconnexion.
+
+![](/images/CaptureDeconnexion.PNG)
+
+* Page Admin
+
+Sur la page admin vous avez un formulaire qui vous propose de visualiser les statistiques sur les patients
+atteints de la maladie a, b, ou c, ou encore des patients n'ayant aucune maladie, et des patients guéris.
+
+Cliquez sur le bouton correspondant à votre choix, puis cliquez sur le bouton choix pour valider votre
+requête.
+
+![](/images/CaptureStats.PNG)
+
 ### Conclusion
 
 Ce tutoriel n'est qu'un court résumé des nombreuses étapes que j'ai pu effectué pour parvenir à une Java Web Application, il se peut alors que des oublis puissent avoir été faits.
