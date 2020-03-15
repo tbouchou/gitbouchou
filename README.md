@@ -123,7 +123,7 @@ tomcat changez le HTTP Port par le port que vous avez rentré précédemment : 9
 * Tout ceci terminé, fermez xamp et relancez le, cela devrait normalement marcher (n'oubliez pas lorsque
 vous tenterez d'aller sur la page /manager/html en localhost de changer le port par :9999)
 
-### Manuel utilisateur
+### Manuel utilisateur de notre application
 
 * Page de connexion 
 
@@ -141,6 +141,12 @@ maladie a, b ou c ou de patients guéris ou qui ne sont atteints par aucune mala
     Mot de passe : admin
     
 ![](/images/CaptureConnexion.PNG)
+
+* Page Docteur
+
+En tant que docteur vous pouvez entrer un nouveau patient dans les champs situés à gauche nommés "Renseignement" et "Maladies?", dans ces champs vous entrerez le nom et l'âge du patient ainsi que son état de santé.
+
+![](/images/CaptureRenseignement.PNG)
      
 ### Conclusion
 
