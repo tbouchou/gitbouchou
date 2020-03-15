@@ -8,7 +8,9 @@
     
 2. *Etapes (configuration)*
 
-4. En cas de complications
+4. *En cas de complications*
+
+5. *Manuel utilisateur de notre application*
 
 3. *Conclusion* 
 
@@ -120,6 +122,25 @@ tomcat changez le HTTP Port par le port que vous avez rentré précédemment : 9
 
 * Tout ceci terminé, fermez xamp et relancez le, cela devrait normalement marcher (n'oubliez pas lorsque
 vous tenterez d'aller sur la page /manager/html en localhost de changer le port par :9999)
+
+### Manuel utilisateur
+
+* Page de connexion 
+
+Pour vous connecter en tant que docteur, et ainsi bénéficier des fonctionnalités comme pouvoir rentrer un
+nouveau patient dans la base de données ou encore mettre à jour les données d'un patient pour ses visites
+suivantes, entrez :
+
+    Login : doctor
+    Mot de passe : doctor
+     
+Pour vous connecter en tant qu'administrateur et ainsi pouvoir voir les statistiques de patients atteints de
+maladie a, b ou c ou de patients guéris ou qui ne sont atteints par aucune maladie, entrez :
+
+    Login : admin
+    Mot de passe : admin
+    
+![](images/CaptureConnexion.png)
      
 ### Conclusion
 
